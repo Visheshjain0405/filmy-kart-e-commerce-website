@@ -1,0 +1,23 @@
+.flex-container {
+
+    display: flex;
+    
+    /* justify-content: space-evenly;  */
+    align-items: center; 
+    /* flex-flow: row wrap; */ 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+
+    /* background-color: rgb(230, 230, 230); */
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: white;
+    border: 1px solid  grey;
+    border-radius: 15px;
+    padding: 8px;
+  }
